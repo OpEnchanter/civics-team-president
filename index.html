@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @font-face {
+                font-family: "font";
+                src: url("font.ttf");
+            }
+
+            body {
+                padding: 0px;
+                font-family: "font", Helvetica;
+            }
+
+            .header {
+                width: 100%;
+                height: 150px;
+                display:flex;
+                flex-direction: row;
+                margin: 0px;
+                vertical-align: center;
+                justify-content: center;
+            }
+
+            .headBox {
+                text-align: center;
+                display: flexbox;
+                width: 100%;
+                margin: 0px;
+            }
+
+            .body {
+                text-align: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .slogan > p {
+                font-size: 33px;
+                margin: 0px;
+            }
+
+            .lp {
+                font-size: 23px;
+            }
+
+            .prezName {
+                color: red;
+            }
+
+            .vpName {
+                color: blue;
+            }
+
+            .spacer {
+                height: 50px;
+            }
+
+            .spacerSmall {
+                height: 25px;
+            }
+
+            .platform {
+                width: 350px;
+                height: 35px;
+                text-decoration: none;
+                background-color: blue;
+                color: white;
+                border-radius: 10px;
+                justify-content: center;
+                align-items: center;
+                vertical-align: center;
+                display: flex;
+                transition-duration: 250ms;
+            }
+
+            .platform:hover {
+                background-color: darkblue;
+            }
+
+            .headLeft {
+                float: right;
+            }
+
+            .headRight {
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="headBox">
+                <h1 class="prezName headLeft">
+                    Max •
+                </h1>
+            </div>
+            <div class="headBox">
+                <img src="https://thumbs.dreamstime.com/b/patriotic-penguin-cute-us-flag-41746228.jpg" width="120px" height="120px" class="mascot"></img>
+            </div>
+            <div class="headBox">
+                <h1 class="vpName headRight">
+                    • Bianca
+                </h1>
+            </div>
+        </div>
+        <div class="body">
+            <div class="slogan">
+                <p>"Max"imize our future!</p>
+            </div>
+            <div class="spacer"></div>
+            <div class="values">
+                <p class="lp">Our Values</p>
+                <strong>
+                    <p>Equality</p>
+                    <p>Higher Level Education</p>
+                    <p>School Cleanliness</p>
+                    <p>Student Handbook Updates</p>
+                    <p>Being a Good Person</p>
+                </strong>
+            </div>
+            <div class="spacerSmall"></div>
+            <a href="platform" class="platform">Visit Our Platform</a>
+        </div>
+    </body>
+</html>
